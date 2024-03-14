@@ -1,0 +1,44 @@
+{
+    "context": "client",
+    "identifier": "com.pa.GreatBalancer-local",
+    "display_name": "GreatBalancer Map Pack",
+    "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
+    "author": "GreatBalancer",
+    "version": "1.1",
+    "build": "116400",
+    "date": "2023-12-18",
+    "signature": "not yet implemented",
+    "icon": "https://i.imgur.com/hBPRGAm.png",
+    "category": [
+        "maps",
+        "titans"
+    ],
+    "scenes": {
+        "load_planet": [
+            "coui://ui/mods/GreatBalancer/maps.js"
+        ]
+    },
+    "searchable": [
+        "GreatBalancer",
+        "map",
+        "pack",
+        "maps",
+        "systems",
+        "system",
+        "planet",
+        "ffa",
+        "1v1",
+        "team",
+        "foundry"
+    ],
+    "priority": 100,
+    "titansOnly": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems",
+        "com.pa.grandhomie.simplebiomes.server"
+    ]
+}
